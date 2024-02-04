@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body,
+  html {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+    background: color-mix(in srgb, rgb(240, 239, 237), rgb(255, 255, 255));
+    width: 100%;
+    height: auto;
+    color: black;
+  }
+  main {
+    max-width: 98%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .github-Link {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 10px;
+  }
+  fieldset {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 10px;
+    max-width: 800px;
+  }
+  .heading {
+    font-weight: 900;
+    font-size: 20px;
+  }
+  .container {
+    max-width: 800px;
+    width: 98%;
+    background-color: black;
+    height: 500px;
+    margin: 20px 0;
+    border-radius: 2px;
+    overflow: auto;
+  }
+  .cli {
+    color: whitesmoke;
+    padding: 0 10px;
+  }
+  h3 {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    border-bottom: 1px solid greenyellow;
+  }
+  .output {
+    margin: 8px 0;
+    font-weight: 500;
+  }
+  .input-container {
+    margin: 5px;
+    scroll-behavior: auto;
+  }
+  label {
+    color: greenyellow;
+    font-weight: 600;
+  }
+  input {
+    color: whitesmoke;
+    background-color: inherit;
+    outline: none;
+    border: none;
+    font-size: inherit;
+    font-family: "Courier New", Courier, monospace;
+  }
+  table {
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 10px;
+  }
+  
+  th, td {
+    text-align: left;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Optional: Set a background color for header cells */
+  }
+  

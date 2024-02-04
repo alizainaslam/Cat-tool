@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ali Zain Aslam" />
+    <!-- LinkedIn | GitHub : alizainaslam -->
+    <meta
+      name="description"
+      content="Write Your Own cat Tool | Coding Challenge | TECH USED: HTML5, CSS3, JavaScript | CLI TOOL |"
+    />
+
+    <!-- LINK: https://codingchallenges.fyi/challenges/challenge-cat/ -->
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <title>Cat Challenge</title>
+  </head>
+  <body>
+    <main>
+      <div class="github-Link">
+        <a href="https://github.com/alizainaslam/Cat-tool" target="_blank">GitHub / </a>
+      </div>
+
+      <fieldset>
+        <h2 class="heading">DOCS:</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Cmd</th>
+              <th>Test</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>[Name] => test.text / test2.text</td>
+              <td>GET JSON file</td>
+            </tr>
+            <tr>
+              <td>-n[index] File name | -n[index]</td>
+              <td>Including lines</td>
+            </tr>
+            <tr>
+              <td>-n[index] File name head -n[index]</td>
+              <td>Excluding lines</td>
+            </tr>
+            <tr>
+              <td>test.text test2.text</td>
+              <td>GET both JSON file</td>
+            </tr>
+            <tr>
+              <td>cls</td>
+              <td>clear JSON</td>
+            </tr>
+          </tbody>
+        </table>
+      </fieldset>
+
+      <div class="container">
+        <div class="cli">
+          <h3>Command Prompt</h3>
+          <p class="user-response">Enter Command for outPut:</p>
+          <div id="input-container">
+            <label for="user-input">Cat:\User\&gt;</label>
+            <input
+              type="text"
+              name="command-input"
+              id="user-input"
+              class="user-input"
+              maxlength="40"
+              autofocus
+              style="width: 300px"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- JavaScript Files -->
+    <script type="module" src="src/js/main.mjs"></script>
+  </body>
+</html>
